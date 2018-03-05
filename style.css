@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+    background-color: #121212;
+    color: #dfdfdf;
+}
+
+h1, h2, h3, h4, h5 { color: #fff; }
+h1 { font-size: 2.6em; }
+h2 { font-size: 2.2em; }
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.3em; }
+h5 { font-size: 1.1em; }
+strong { font-weight: bolder; color: #ffffff;}
+code { font-family: "Courier New", Courier, monospace; font-weight: 100; }
+
+.clearfix:after { content: " "; display: table; } .clearfix:after { clear: both; }
+.wrapper { max-width: 85%; margin: auto; }
+.kitten { max-width: 70%; padding: 1em; float: right; } .left { display: inline; }
+.header { padding: 1.2em 0; }
+.container { height: 120%; text-align: justify; }
+.large { font-size: 1.2em; font-weight: bold; color: #faf; }
+.hide-on-mobile { display: inline; }
+a, a:hover, a:visited { text-decoration: none; color: #1a3; }
+
+@media all and (max-width: 767px) {
+    h1, h2 { font-size: 1.9em; }
+    h3 { font-size: 1.4em; }
+    h4, h5 { font-size: 1.1em; }
+    .wrapper { max-width: 96%; } .header { padding: 0 0 0.3em 0; }
+    .hide-on-mobile { display: none; }
+}
